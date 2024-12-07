@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="Website that sells websites">
+    <title>Praudyo Kritrima</title>
+    <style>
+    body {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        font-family: Arial, sans-serif; 
+        margin: 0; 
+        padding: 0; 
+        }
+
+    #form {
+        display: flex;
+        justify-content: center; 
+        margin-top: 20px; 
+        }
+
+    #query {
+        border: 2px solid #9e6868; 
+        border-radius: 15px; 
+        padding: 10px; 
+        font-size: 16px; 
+        outline: none; 
+        transition: border-color 0.3s; 
+        }
+
+    #query:focus {
+        border-color: #ca7474; 
+        }
+
+    button {
+        background-color: #c06363; 
+        border: none; 
+        border-radius: 15px; 
+        padding: 10px 15px; 
+        font-size: 16px; 
+        cursor: pointer; 
+        margin-left: 10px; 
+        transition: background-color 0.3s; 
+        }
+
+    button:hover {
+        background-color: #f4b4b4; 
+        }
+
+    img {
+        max-width: 80%; 
+        height: auto; 
+        margin-top: 20px; 
+        }
+
+    nav {
+        text-align: center; 
+        margin-top: 20px; 
+        }
+
+    nav a {
+        margin: 0 15px; 
+        text-decoration: none; 
+        color: #9e6868; 
+        font-size: 18px; 
+        }
+
+    nav a:hover {
+        color: #ca7474; 
+        }
+
+    section {
+        padding: 50px; 
+        margin: 20px;
+        border-radius: 10px; 
+        background-color: rgba(255, 255, 255, 0.8); 
+
+        h2 {
+            color: #9e6868; 
+        }
+    }
+    </style>
+</head>
+<body>
+    <div align="center">
+        <img src="Praudyo_Kritrima.png" alt="Image not found">
+    </div>
+    
+    <form id="form"> 
+        <input type="search" id="query" name="q" placeholder="Search...">
+        <button type="submit">Search</button>
+    </form>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="#more-info">More Info</a>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to Praudyo Kritrima! We specialize in selling websites tailored to your needs. Choose from a variety of resources, including customizable templates, expert design services, and comprehensive support to help you establish a strong online presence. 
+           Whether you're a small business or an individual, we have the perfect solution for you.</p>
+           <br><p> Explore our offerings today and take the first step towards creating a stunning website that reflects your unique vision and goals.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you have any questions, feel free to reach out to us via email at <a href="mailto:daliasen16@gmail.com">daliasen16@gmail.com</a>.</p>
+        <p>You can also contact us by phone at <a href="tel:7439711097">7439711097</a>.</p>
+        <p>Follow us on Instagram: <a href="https://www.instagram.com/daliasen_202020" target="_blank">@Daliasen</a>.</p>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>Praudyo Kritrima is dedicated to providing high-quality websites for businesses and individuals.</p>
+    </section>
+
+    <section id="more-info">
+        <h2>More Info</h2>
+        <p>For more information about our services, please visit our FAQ page or contact us directly.</p>
+    </section>
+</body>
+</html>
